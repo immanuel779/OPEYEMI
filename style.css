@@ -1,0 +1,141 @@
+navbar {
+  background: #56c231;
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f4f4f4 !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-grow: 1;
+}
+
+.navbar-nav .nav-link {
+  color: #f4f4f4 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.btn-secondary {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-secondary:hover {
+  background-color: #e0a800;
+  color: #fff;
+}
+
+.hero {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  font-weight: 700;
+  color: #212529;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #495057;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #0077bf;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-tertiary:hover {
+  background-color: #0056b3;
+}
+
+#services {
+  background-color: #f8f9fa;
+}
+
+#services .card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+#services .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+#services i {
+  color: #0d6efd; /* Bootstrap primary blue */
+}
+
+.card-title {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+#portfolio {
+  background-color: #f9fafb;
+}
+
+#portfolio .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+#portfolio .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+#portfolio .card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.btn i {
+  margin-right: 6px;
+}
+
+#testimonials .card {
+  border: none;
+  background-color: #fff;
+}
+
+#testimonials .text-warning {
+  font-size: 1rem;
+}
+
+i{
+  color: white;
+}
